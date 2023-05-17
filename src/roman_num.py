@@ -1,2 +1,10 @@
 def roman_num(num):
-    return "I"
+    if num == 1:
+        return "I"
+    elif num == 2:
+        return "II"
+    elif num == 3:
+        return "III"
+    elif num == 4:
+        return "IV"
+    
