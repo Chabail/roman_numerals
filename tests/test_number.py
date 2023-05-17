@@ -43,3 +43,21 @@ class Roman_roman_num_TestCase(unittest.TestCase):
 
         # Assert / Then
         self.assertEqual('IV', result)
+
+    def test_it_returns_V_when_roman_num_is_5(self):
+        # Arrange / Given
+
+        # Act / When
+        result = roman_num(5)
+
+        # Assert / Then
+        self.assertEqual('V', result)
+    
+    def test_it_returns_VI_when_roman_num_is_6(self):
+        # Arrange / Given
+
+        # Act / When
+        result = roman_num(6)
+
+        # Assert / Then
+        self.assertEqual('VI', result)
