@@ -17,29 +17,29 @@ class Roman_roman_num_TestCase(unittest.TestCase):
         # Assert / Then
         self.assertEqual('I', result)
 
-    def test_it_returns_2_when_roman_num_is_2(self):
+    def test_it_returns_II_when_roman_num_is_2(self):
         # Arrange / Given
 
         # Act / When
         result = roman_num(2)
 
         # Assert / Then
-        self.assertEqual('2', result)
+        self.assertEqual('II', result)
 
-    def test_it_returns_roman_num_when_roman_num_is_3(self):
+    def test_it_returns_III_when_roman_num_is_3(self):
         # Arrange / Given
 
         # Act / When
         result = roman_num(3)
 
         # Assert / Then
-        self.assertEqual('fizz', result)
+        self.assertEqual('III', result)
 
-    def test_it_returns_buzz_when_roman_num_is_5(self):
+    def test_it_returns_IV_when_roman_num_is_4(self):
         # Arrange / Given
 
         # Act / When
-        result = roman_num(5)
+        result = roman_num(4)
 
         # Assert / Then
-        self.assertEqual('buzz', result)
+        self.assertEqual('IV', result)
